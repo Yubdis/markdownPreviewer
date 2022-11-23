@@ -1,5 +1,6 @@
-# [This is a markdown previewer](https://yubdis.github.io/markdownPreviewer/)
+# Markdown Previewer
 
-## This is one of the challenges from freeCodeCamp.com's front-end library certification
+## [This is a markdown previewer](https://yubdis.github.io/markdownPreviewer/)
 
-This was built using JavaScript and Bootstrap
+This is one of the challenges from freeCodeCamp.com's front-end library certification
+This was built using JavaScript and Bootstrap.
