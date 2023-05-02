@@ -7,7 +7,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
+
     <script>
     function markedPreview() {
         let previewElement = document.getElementById("preview");
@@ -44,7 +44,7 @@ javascript\n\ var s = 'JavaScript syntax highlighting';\n\
         previewElement.innerHTML = marked.parse(defaultText);
     }
     </script>
-    
+
     <title>Markdown Previewer</title>
 </head>
 <body onload="defaultPreview()">
@@ -55,11 +55,11 @@ javascript\n\ var s = 'JavaScript syntax highlighting';\n\
         <div class="row">
             <div class="col-6 d-flex flex-column">
                 <p class="h2 text-center bg-info">Editor</p>
-                <textarea class="form-control flex-grow-1 bg-warning" id="editor" onkeyup="markedPreview()"></textarea>
+                <textarea class="form-control flex-grow-1" id="editor" onkeyup="markedPreview()"></textarea>
             </div>
             <div class="col-6">
                 <p class="h2 text-center bg-success">Previewer</p>
-                <div class="output text-bg-warning" id="preview"></div>
+                <div class="output" id="preview"></div>
             </div>
         </div>
     </div>
